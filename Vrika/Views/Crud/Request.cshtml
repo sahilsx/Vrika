@@ -1,0 +1,94 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<style>
+    /* Basic CSS styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+</style>
+
+
+<div class="container">
+    <h2>Request a Book</h2>
+    <form method="post">
+        <label for="title">BookTitle</label>
+        <input type="text" id="title" name="BookTitle" required>
+
+        <label for="author">Author</label>
+        <input type="text" id="author" name="Author" required>
+
+        <label for="genre">Genre</label>
+        <input type="text" id="genre" name="Genre">
+
+        <label for="description">Description</label>
+        <textarea id="description" name="Description" required></textarea>
+
+        <label for="email">YourEmail</label>
+        <input type="email" id="email" name="YourEmail" required>
+
+        <button type="submit" class="btn btn-primary">Submit Request</button>
+    </form>
+</div>
+

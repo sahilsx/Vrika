@@ -1,0 +1,345 @@
+﻿@model Vrika.Models.LoginUser
+@{
+
+}
+<style>
+
+  /*.login{
+   margin-top: -1.1%;
+  width:100%;
+
+  height:200vh;
+ 
+
+
+
+   }
+   
+    .form-label{
+        font-size: 15px;
+        display: block;
+        font-family: sans-serif;
+      
+        margin: 8px 20px;
+        font-weight:600;
+    }
+
+
+    .form-input {
+        width: 75%;
+       
+        height: 35px;
+        display: block;
+        font-size: 14px;
+        margin:10px 20px;
+        padding: 5px 20px;
+        font-family: sans-serif;
+        border: 1px solid #e5d3d3;
+        background-color: #fff;
+    }
+
+    .regx {
+        background-color: blue;
+        color: rgb(218, 252, 252);
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 5px 20px;
+        margin-top: 10px;
+        font-family: 'Franklin Gothic';
+        font-style: italic;
+        margin-left: 32%;
+    }
+
+        .regx:hover {
+            background-color: purple;
+            color: pink;
+            z-index: 1;
+            transform: scale(1.01);
+            cursor: pointer;
+        }
+
+    .register li {
+        margin-top: 15px;
+        list-style-type: none;
+        text-decoration: none;
+        margin-left: 5%;
+        font-family: 'Franklin Gothic';
+        font-style: italic;
+        margin-bottom: 15px;
+        color:black;
+    }
+
+        .register li a {
+            list-style-type: none;
+            text-decoration: none;
+            background-color: blue;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: rgb(218, 252, 252);
+            border-radius: 10px;
+            font-family: 'Franklin Gothic';
+            font-style: italic;
+           
+        }
+
+            .register li a:hover {
+                background-color: purple;
+                color: pink;
+                transform: scale(2);
+                cursor: pointer;
+            }
+
+
+    .ftn {
+        font-family: 'Franklin Gothic';
+        font-style: italic;
+        padding:20px 6px;
+        margin-top: 50px;
+        font-size: 13px;
+        color: navajowhite;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+
+
+    .log {
+        width:30%;
+        margin-top:-28.5%;
+       
+      margin-left:60%;
+       /* border: 3px solid #f900f9;
+
+      border-radius:13px;
+        background-color: #1362a7;
+        box-shadow: inset 1px 0 2px , 1px 0 2px ;
+        border-radius: 13px;
+        border:3px solid transparent;
+    }
+
+
+    .Lhead {
+        font-family: 'Global Sans Serif';
+        margin-bottom: 30px;
+        font-weight: 900;
+       
+        margin-left:6%;
+        margin-top: 20px;
+        
+    }
+    #ct{
+   color:black;
+   margin-left: 30%;
+   margin-bottom:10px;
+}
+    .fb {
+   text-decoration:none;
+   background-color:navy;
+   padding: 5px 15px;
+   font-size: 17px;
+   color: rgb(218, 252, 252);
+   border-radius: 10px;
+   font-family: 'Franklin Gothic';
+   margin-left:7%;
+   margin-top:12px;
+
+    }
+    .gg{
+        margin-left: 7%;
+    }
+    .fp{
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    margin-left: 4%;
+    font-weight:500;
+
+    }
+    .imgo{
+   width:31%;
+   height:300px;
+   margin-left: 25%;
+   opacity:0.4;
+   margin-top:110px;
+
+    }*/
+
+    .login {
+        max-width: 400px;
+        margin: 25px auto;
+        margin-left:5%;
+        padding: 20px;
+        background-color: #efdbdb;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        align-items:center;
+    }
+
+    .imgo {
+        display: block;
+        margin: 0 auto 5px;
+        width: 50px;
+    }
+
+    .Lhead {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #212529;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 5px;
+        color: #212529;
+        font-size:14px;
+        font-weight:600;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .fp {
+        display: block;
+        text-align: right;
+        margin-bottom: 2px;
+        color:black;
+    }
+
+    .regx {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .regx:hover {
+            background-color: #45a049;
+        }
+        #ct{
+
+            margin-top:5px;
+            margin-left:30%;
+        color: #212529;
+        }
+    .gg {
+        margin-bottom: 5px;
+        margin-left:22%;
+    }
+
+        .gg a {
+            display: inline-block;
+            color: #212529;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+            .gg a:last-child {
+                margin-right: 0;
+            }
+
+    .register li a{
+        color: black;
+
+
+
+    }
+
+    
+    .register li{
+        color: #212529;
+        
+
+
+
+    }
+
+    .ftn {
+        display: block;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #ffeaea;
+        text-decoration: none;
+    }
+    .fn{
+        list-style-type: none;
+        color: #ffeaea;
+    }
+    .im{
+        max-width:600px;
+        margin:0 25%;
+        margin-top:150px;
+        height:200px;
+    }
+    .div{
+        display:flex;
+    }
+</style>
+<div class="div">
+   
+<div class="login" >
+    
+    
+
+<form method="post" class="register">
+   <img class="imgo" src="~/css/kisspng-computer-icons-login-management-user-5ae155f36cf686.7736884715247170434463.png" alt="Avatar">
+    <div class="log">
+
+        <h1 class="Lhead">
+            LOGIN PORTAL !
+        </h1>
+
+
+
+
+
+
+        <label class="form-label">USERNAME </label>
+        <input class="form-input" type="text" id="Username" placeholder="ENTER YOUR USERNAME HERE" asp-for="UserName" >
+
+
+
+
+
+        <label class="form-label">PASSWORD</label>
+        <input class="form-input " id="Password" type="Password" placeholder="ENTER YOUR PASSWORD HERE" asp-for="Password"        >
+
+
+            <a class="fp" asp-area="" asp-controller="Home" asp-action="Index">Forgot Password?</a>
+
+            <br />
+
+
+
+
+
+        <button class="regx btn btn-primary" type="submit"> LOGIN</button>
+
+
+            <h6 id="ct">
+                Continue With
+            </h6>
+            <div class="gg">
+                <a class="fb" asp-area="" asp-controller="Register" asp-action="Register"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+                <a class="fb" asp-area="" asp-controller="Register" asp-action="Register"><i class="fa fa-google" aria-hidden="true"></i> Google</a>
+
+
+       
+
+        
+            </div>
+            <li> if you don't have an account then. <a asp-area="" asp-controller="Register" asp-action="Register">Register</a></li>
+             <a class="ftn" asp-area="" asp-page="/login">Privacy · Terms · Advertising · Ad choices   · Cookies  ·  · Meta © 2024</a><style color=" color: #ffeaea;"></style> 
+    </div>
+</form>
+</div>
+    <img class="im" src="~/css/kisspng-clip-art-access-control-user-computer-icons-image-5b6e95d5e9f0c0.6042276715339739739582.png" alt="Avatar">
+
+</div>

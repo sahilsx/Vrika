@@ -1,0 +1,183 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Vrika
+build_property.RootNamespace = Vrika
+build_property.ProjectDir = C:\Users\ff025\OneDrive\Desktop\Vrika\Vrika\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ff025\OneDrive\Desktop\Vrika\Vrika
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Crud/Rdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxSZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Crud/RDeleteConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxSRGVsZXRlQ29uZmlybWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Crud/Request.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Crud/Rlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxSbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Crud/RNotify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxSTm90aWZ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Crud/RSendMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxSU2VuZE1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Crud/Submission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxTdWJtaXNzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Authors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdXRob3JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Bestseller.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZXN0c2VsbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Buy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/DeleteConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVDb25maXJtZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Help.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Newarrivals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdhcnJpdmFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Register/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Register/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Register/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Register/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/Notify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxOb3RpZnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/Sdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxTZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/Sdeleteconfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxTZGVsZXRlY29uZmlybWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/SendMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxTZW5kTWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/Ship.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxTaGlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/Slist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxTbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Ship/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Subs/Gift.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic1xHaWZ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Subs/Subscribe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic1xTdWJzY3JpYmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ff025/OneDrive/Desktop/Vrika/Vrika/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wnt062r6qy

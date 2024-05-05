@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="body">
+    <div class="REQ">
+
+        <h2> ORDER-LIST</h2>
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <th>PRODUCT-ID</th>
+                    <th>NAME</th>
+                    <th>ADDRESS</th>
+                    <th>EMAIL</th>
+                    <th>PHONE</th>
+                    <th>CITY</th>
+                    <th>Action</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Shipping in Model)
+                {
+                    <tr style=" font-weight: 500">
+
+                        <td>@Shipping.Productid</td>
+                        <td>@Shipping.fullname</td>
+                        <td>@Shipping.address</td>
+                        <td>@Shipping.email </td>
+                        <td>@Shipping.Phone </td>
+                        <td>@Shipping.city </td>
+
+                        <td>
+                            <a class="btn btn-primary" asp-controller="Ship"
+                               asp-action="Notify" asp-route-id="@Shipping.Id">
+                                NOTIFY
+                            </a>
+
+                            <a class="btn btn-danger" asp-controller="Ship"
+                               asp-action="Sdelete" asp-route-id="@Shipping.Id">
+                                Delete Request
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<style>
+    .REQ {
+        width: 95%;
+        margin: 80px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .body {
+        min-height: 90vh;
+    }
+
+    .table {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+
+    h2 {
+        margin-left: 20px;
+        align-items: center;
+    }
+</style>
+

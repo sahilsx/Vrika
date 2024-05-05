@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="table1">
+
+
+
+
+
+    <h2 class="order">mail Request!</h2>
+
+    <p>Are you sure you want to send the Mail?</p>
+    <input type="hidden" for="Id" />
+    <table class="table">
+        <tr>
+            <th>PRODUCT-ID</th>
+            <td>@Model.Productid</td>
+        </tr>
+        <tr>
+            <th>NAME</th>
+            <td>@Model.fullname</td>
+        </tr>
+
+    </table>
+
+    <form asp-action="SendMail" asp-route-id="@Model.Id" method="post">
+        <input type="submit" value="Send Mail" class="btn btn-danger" />
+
+
+
+        <a asp-action="Slist" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+
+
+<style>
+    .buy {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .table1 {
+        width: 70%;
+        margin: 60px auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        padding: 10px;
+        background-color: transparent;
+    }
+
+    .order {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 900;
+        margin-left: 20%;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-weight: 500
+    }
+
+    td {
+        font-weight: 500
+    }
+
+    h1 {
+        text-align: center;
+        margin: 100px auto;
+    }
+
+</style>

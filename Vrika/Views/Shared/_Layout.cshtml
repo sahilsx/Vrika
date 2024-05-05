@@ -1,0 +1,664 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Vrika</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Vrika.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+
+</head>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                <a class="title" asp-area="" asp-controller="Home" asp-action="Index"> <i class="fa fa-book" aria-hidden="true"></i>VRiKa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <form action="" method="post">
+                            <input class="search" type="search" placeholder="search books | Authors" required>
+                            <br>
+                            <button class="btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i> </button>
+                        </form>
+
+
+
+                       <div class="d-flex align-items-center">
+
+
+                            @if (signInManager.IsSignedIn(User))
+                            {
+                                <div class="me-3 nsp ">
+
+                                   
+                                        <li class="nav-item lmn dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="pr" src="~/css/man_4140048.png" alt="Avatar">    @User?.Identity?.Name
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Profile"><i class="fa fa-address-book" aria-hidden="true"></i>  Account Details</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-plus-square" aria-hidden="true"></i>  My Booklist</a></li>
+                            
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Ship" asp-action="Order"><i class="fa fa-truck" aria-hidden="true"></i> My Orders</a></li>
+                            <li>
+                                <a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Logout"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> My Wishlist</a></li>
+                                     <li><a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-sign-out" aria-hidden="true"></i>       logout</a></li>
+    
+
+                            </ul>
+                        </li>
+                               
+                                </div>
+
+                    <div class="dp">
+                        <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Profile"><i class="fa fa-address-book" aria-hidden="true"></i>  Account Details</a>
+                            <a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-truck" aria-hidden="true"></i> My Orders</a>
+                            <a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-sign-out" aria-hidden="true"></i>       logout</a>
+                        </div>
+                    </div>
+
+
+                                
+
+                            }
+
+                            else
+                            {
+                            <li class="nav-item">
+                                <a class="navs" asp-area="" asp-controller="Register" asp-action="Login"><i class="fa fa-user-plus" aria-hidden="true"></i></a>
+                            </li>
+
+                            }
+
+                        </div>
+
+
+                        @if (signInManager.IsSignedIn(User))
+                    {
+                        if(User.IsInRole("Admin"))
+                        {
+
+                    <a class="btn btn-primary lmn" asp-area="" asp-controller="Home" asp-action="Admin">ADMIN</a>
+
+
+                            }
+                       
+                   
+                  }
+                        else
+                        {
+
+                        }
+
+
+
+
+
+
+
+
+                       
+                        
+                        <p class="panel"> | </p>
+                        <li class="nav-item">
+                            <a class="navs1" asp-area="" asp-controller="" asp-action=""><i class="fa fa-cart-plus" aria-hidden="true" ></i></a>
+                        </li>
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+           
+
+
+
+
+
+            
+    </header>
+    <div class="cn">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class=" ftr text-muted ">
+
+        <div>
+            <a class="vk" asp-area="" asp-controller="Home" asp-action="Index"> <i class="fa fa-book" aria-hidden="true"></i>VRiKa</a>
+
+
+
+            <div class="foot">
+                <h6 class="hd">
+                    Company
+                </h6>
+
+                <ul class="company">
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">About Us</a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Career</a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Blog</a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Contact Us</a>
+
+                    </li>
+
+
+
+
+
+
+                </ul>
+
+
+
+            </div>
+            <div class="foot2">
+
+                <h6 class="hd">
+                    Policies
+
+
+                </h6>
+
+                <ul class="company">
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Privacy Policies</a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Terms of Use</a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Secure Shopping</a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Copyright Policy</a>
+
+                    </li>
+
+
+
+
+
+
+                </ul>
+
+
+
+            </div>
+
+
+
+
+            <div class="foot3">
+
+
+                <h6 class="hd">
+                    Help
+                </h6>
+
+                <ul class="company">
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Payment</a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Shipping</a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">Return</a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index">FAQS</a>
+
+                    </li>
+
+
+
+
+
+
+                </ul>
+
+
+
+
+            </div>
+
+
+
+            <div class="foot4">
+
+                <h6 class="hd">
+                    Follow Us
+                </h6>
+                <ul class="ilogo">
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-facebook-official" aria-hidden="true"></i>       </a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a class="" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+
+                    </li>
+
+
+
+
+
+
+                </ul>
+                <div class="ct">
+                    &copy; 2024 - Vrika - <a asp-area="" asp-page="/Privacy">all-copyrights-reserved.</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+<style>
+    /* Dropdown container */
+    
+
+    /*TOP NAVBAR*/
+    .navbar{
+        background-color: white;
+        height:15vh;
+        
+      }
+      header{
+        /*position: sticky;
+        top: 0;*/
+       
+      }
+     
+
+
+    .title{
+        color:purple;
+        font-style:italic;
+        font-weight:900;
+        font-size:42px;
+        margin-top:0px;
+        text-decoration:none;
+        margin-left:35px;
+    }
+
+       
+
+          
+    .navs {
+        position:absolute;
+        display:flex;
+        float:right;
+        right:5.4%;
+        text-decoration:none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:30px;
+        margin-top: -6px;
+        color: purple;
+    }
+
+    .navs1 {
+        position: absolute;
+        display: flex;
+        float: right;
+        right: 2.4%;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        margin-top: 7px;
+        color:purple;
+    }
+
+
+    
+    .panel{
+    position:absolute;
+    right:4.7%;
+    color:cadetblue;
+    font-size:x-large;
+
+    }
+
+    /* Dropdown container */
+   
+
+
+
+    .search {
+        background-color: #fff;
+        padding: 10px 20px;
+        align-items:center;
+        color: black;
+        min-width: 260px;
+        position: absolute;
+        top: 25px;
+        right: 51%;
+        border: 2px solid #ccc;
+    }
+
+    .btn-search {
+        background-color: #fff;
+        position: absolute;
+        right: 52.7%;
+        top: 37px;
+        border: 1px solid #fff;
+      
+       
+    }
+    
+
+    .navbar-nav{
+        margin:5px 20px;
+
+    }
+
+
+   .lg{
+        position:absolute;
+        display:flex;
+        float:right;
+        right:12.3%;
+        text-decoration:none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:10px;
+        margin-top: 15px;
+        color: white;
+       
+    }
+   
+    .nsp{
+         position:absolute;
+         right:4%;
+         font-size:20px;
+         font-weight:700;
+        color: cadetblue;
+         top:28px;
+       
+
+    }
+
+    .pr{
+    width:40px;
+    margin:0px 0px;
+    font-weight:200;
+    
+
+
+
+    }
+
+    a[b-wnt062r6qy] {
+        color: #433393;
+    }
+    .dr{
+    font-size:15px;
+    margin:20px 0px;
+    cursor:pointer;
+    
+    
+    
+    
+    }
+
+    .lmn{
+    position:absolute;
+    right:29%;
+    font-size: 20px;
+    font-weight: 400;
+    
+
+
+
+
+    }
+
+    .dropdown-menu{
+     background-color:black;
+    
+    
+    
+    
+    }
+
+    .dropdown-menu li a{
+        color:coral;
+
+
+
+
+
+
+    }
+
+
+
+
+    .ftr {
+        background-color: #aeadff;
+        height:70vh;
+        margin-top:-15px;
+        margin-bottom:-60px;
+
+    }
+
+
+
+   .vk{
+        color: purple;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 72px;
+        margin:auto 5%;
+        text-decoration: none;
+        
+
+
+
+    }
+
+   .hd{
+     display:inline;
+     color:mediumvioletred;
+        display: inline;
+        position: relative;
+        top: 4px;
+        font-weight:900;
+
+    }
+
+   .company li a{
+     
+        list-style-type: none;
+        font-size: small;
+        font-family: sans-serif;
+        color: #422d97;
+      display: inline-block;
+        text-decoration: none;
+        width: 120px;
+        margin:3px -30px;
+        font-weight:700;
+
+
+    }
+    .company{
+        margin-top:10px;
+
+
+
+    }
+
+    .company li{
+        list-style-type: none;
+
+    }
+    .foot{
+   margin-left:2%;
+  
+
+
+    }
+
+   .foot2 {
+        margin-left: 18%;
+       margin-top:-152px
+    }
+
+   .foot3 {
+        margin-left: 42%;
+        margin-top: -154px
+    }
+
+   .foot4 {
+        margin-left: 62%;
+        margin-top: -150px
+    }
+
+    .ilogo li{
+     list-style-type:none;
+    
+    
+    
+    
+    }
+    .ilogo li a{
+      
+       color:purple;
+       font-size:30px;
+       font-weight:700;
+       padding:3px 20px;
+       margin-left: -20px;
+
+    }
+
+    .ilogo{
+        display:flex;
+        margin:15px 0px;
+        margin-left:-20px;
+
+
+    }
+    .ct{
+
+   margin-left:-70%;
+   margin-top:37%;
+
+
+
+    }
+
+    .ct a{
+    text-decoration:none;
+    color: #6c757d;
+
+
+
+
+
+    }
+
+   
+
+   
+
+    
+
+
+
+
+
+
+
+</style>

@@ -1,0 +1,138 @@
+﻿@model Books;
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+
+<div class="buy">
+     @if (signInManager.IsSignedIn(User)) {
+<div class="table1">
+
+
+
+   
+
+    <h2 class="order">Place Your Order Now!</h2>
+
+    <p>Are you sure you want to buy the Book?</p>
+    <input type="hidden" for="Id" />
+
+    <table class="table">
+                <tr>
+                    <th></th>
+                    <td><img class="imgx" src=@Model.Url alt="Avatar"></td>
+                </tr>
+                <tr>
+                    <th>Product-Id</th>
+                    <td>@Model.Id</td>
+                </tr>
+        <tr>
+            <th>BookName</th>
+            <td>@Model.BookName</td>
+        </tr>
+        <tr>
+            <th>BookPrice</th>
+            <td>@Model.BookPrice</td>
+        </tr>
+            <tr>
+                <th>Author</th>
+                <td>@Model.Author</td>
+            </tr>
+            <tr>
+                <th>BookGenre</th>
+                <td>@Model.Genre</td>
+            </tr>
+
+    </table>
+
+
+    <a asp-controller="Ship" asp-action="Ship" class="btn btn-primary">Buy</a>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+
+
+
+
+
+
+</div>
+}
+else{
+    <div class="p">
+    <p class="b">  BEFORE BUYING SOMETHING YOU NEED TO BE LOGGED IN!   </p>
+        
+    </div>
+        <a class="btn btn-primary bt" asp-area="" asp-controller="Register" asp-action="Login">LOGIN</a>
+}
+
+
+
+<style>
+    .buy{
+   width:100vw;
+   height:100vh;
+
+
+
+
+
+    }
+    .p
+    {
+       margin-top:100px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      
+
+    }
+
+      .bt{
+          margin-left:50%;
+      }
+    
+    .table1{
+        width:70%;
+        margin:60px auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        padding: 10px;
+        background-color: transparent;
+       
+
+
+
+
+    }
+    .order{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight:900;
+     margin-left:20%;
+     margin-bottom:50px;
+
+
+
+
+    }
+
+    p{
+        font-weight:500
+
+
+
+    }
+
+    td{
+        font-weight: 500
+
+    }
+
+    h1{
+   
+    text-align:center;
+    margin:100px auto;
+    }
+    .imgx{
+        width:400px; 
+        height:150px;
+    }
+
+</style>

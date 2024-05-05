@@ -1,0 +1,155 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    /* Basic CSS styling */
+    .cr {
+        max-width: 600px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .Create {
+        text-align: center;
+    }
+
+    .Chead {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .mm {
+        margin-bottom: 15px;
+    }
+
+    .mrr {
+        display: inline-block;
+        width: 120px;
+       font-weight:500;
+    }
+
+    .mrh {
+        width: 300px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .BTNX {
+        margin-top: 20px;
+    }
+
+    .TNX {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .TNX:hover {
+            background-color: #45a049;
+        }
+
+    .ftn {
+        display: block;
+        margin-top: 20px;
+        color: #666;
+        text-decoration: none;
+    }
+
+
+    
+
+</style >
+
+<div class="cr">
+
+<form method="POST">
+   
+  <div class="Create">
+
+        <h1 class="Chead">ADD COLLECTION!</h1>
+
+   
+
+
+
+
+
+
+
+
+    <div class="mm">
+                <label for="BookName" class="mrr"> BookName</label>
+        <div>
+            <input class="mrh " type="text" name="BookName" placeholder="ENTER BOOKNAME HERE" />
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="mm ">
+                <label for="BookPrice" class="mrr"> BookPrice</label>
+        <div>
+                    <input class="mrh" type="number" name="BookPrice" placeholder="ENTER BOOKPRICE HERE" />
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="mm ">
+                <label for="Author" class="mrr"> Author </label>
+        <div>
+                    <input class="mrh" type="text" name="Author" placeholder="ENTER AUTHOR NAME HERE" />
+        </div>
+    </div>
+
+
+            <div class="mm ">
+                <label for="Genre" class="mrr"> Genre </label>
+                <div>
+                    <input class="mrh" type="text" name="Genre" placeholder="ENTER GENRE HERE" />
+                </div>
+            </div>
+
+            <div class="mm ">
+                <label for="Url" class="mrr"> Url </label>
+                <div>
+                    <input class="mrh" type="text" name="Url" placeholder="ENTER URL HERE" />
+                </div>
+            </div>
+
+
+
+    <div class="BTNX">
+        <div class=" ">
+            <button type="submit" class=" TNX ">ADD</button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <a class="ftn" asp-area="" asp-page="/login">Privacy  · Terms  · Advertising  · Ad choices   · Cookies  ·   · Meta © 2024</a>
+    </div>
+</form>
+</div>

@@ -1,0 +1,501 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Vrika.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vrika.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\Answer.txt",
+      "PackagePath": "staticwebassets\\css\\Downloads\\Answer.txt"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\BCA_Sahil Altaf Nagoo_Communicative English (1).pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\BCA_Sahil Altaf Nagoo_Communicative English (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\BCA_Sahil Altaf Nagoo_Communicative English.pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\BCA_Sahil Altaf Nagoo_Communicative English.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\BlueStacks10Installer_10.3.20.1003_native_9f673b361a497b0896353805abf4e673_MzsxNSwwOzUsMTsxNSw0OzE1.exe",
+      "PackagePath": "staticwebassets\\css\\Downloads\\BlueStacks10Installer_10.3.20.1003_native_9f673b361a497b0896353805abf4e673_MzsxNSwwOzUsMTsxNSw0OzE1.exe"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\ChromeSetup.exe",
+      "PackagePath": "staticwebassets\\css\\Downloads\\ChromeSetup.exe"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\Download Cover Page_UU (1).pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\Download Cover Page_UU (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\Download Cover Page_UU.pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\Download Cover Page_UU.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\Git-2.42.0.2-64-bit.exe",
+      "PackagePath": "staticwebassets\\css\\Downloads\\Git-2.42.0.2-64-bit.exe"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\bca_Sahil Altaf Nagoo_introduction to information technology.pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\bca_Sahil Altaf Nagoo_introduction to information technology.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\bca_Sahil Altaf Nagoo_programming in c.pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\bca_Sahil Altaf Nagoo_programming in c.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\bca_sahil altaf nagoo_digital computers and fundamentals (1).pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\bca_sahil altaf nagoo_digital computers and fundamentals (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\bca_sahil altaf nagoo_digital computers and fundamentals.pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\bca_sahil altaf nagoo_digital computers and fundamentals.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\bca_sahil altaf nagoo_mathematics.pdf",
+      "PackagePath": "staticwebassets\\css\\Downloads\\bca_sahil altaf nagoo_mathematics.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\chinup.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\chinup.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\chromeremotedesktophost.msi",
+      "PackagePath": "staticwebassets\\css\\Downloads\\chromeremotedesktophost.msi"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\desktop.ini",
+      "PackagePath": "staticwebassets\\css\\Downloads\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\exesetup.msi",
+      "PackagePath": "staticwebassets\\css\\Downloads\\exesetup.msi"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\favicon.ico",
+      "PackagePath": "staticwebassets\\css\\Downloads\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-book-quill.zip",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-book-quill.zip"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-fullscreen-64.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-fullscreen-64.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-hand-with-pen-ios-17.zip",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-hand-with-pen-ios-17.zip"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-icons-64.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-icons-64.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-minimize-48.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-minimize-48.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-next-24.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-next-24.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-offer-ios-17.zip",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-offer-ios-17.zip"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-previous-32.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-previous-32.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\icons8-shuffle-50.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\icons8-shuffle-50.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\image albumgg.zip",
+      "PackagePath": "staticwebassets\\css\\Downloads\\image albumgg.zip"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\kisspng-computer-icons-user-scalable-vector-graphics-porta-man-lock-block-svg-png-icon-free-download-5-9-47-5c738fd23e2bb4.9275854115510773302547.png",
+      "PackagePath": "staticwebassets\\css\\Downloads\\kisspng-computer-icons-user-scalable-vector-graphics-porta-man-lock-block-svg-png-icon-free-download-5-9-47-5c738fd23e2bb4.9275854115510773302547.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Downloads\\node-v20.10.0-x64.msi",
+      "PackagePath": "staticwebassets\\css\\Downloads\\node-v20.10.0-x64.msi"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\Home Delivery of Books-eng.jpg",
+      "PackagePath": "staticwebassets\\css\\Home Delivery of Books-eng.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\close_up_video_of_a_woman_studying (1080p).mp4",
+      "PackagePath": "staticwebassets\\css\\close_up_video_of_a_woman_studying (1080p).mp4"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\icons8-book-50.png",
+      "PackagePath": "staticwebassets\\css\\icons8-book-50.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\icons8-discount-48.png",
+      "PackagePath": "staticwebassets\\css\\icons8-discount-48.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\icons8-discount-color.zip",
+      "PackagePath": "staticwebassets\\css\\icons8-discount-color.zip"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\icons8-hand-with-pen-50.png",
+      "PackagePath": "staticwebassets\\css\\icons8-hand-with-pen-50.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\icons8-offer-50.png",
+      "PackagePath": "staticwebassets\\css\\icons8-offer-50.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\icons8-offer.gif",
+      "PackagePath": "staticwebassets\\css\\icons8-offer.gif"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\kisspng-clip-art-access-control-user-computer-icons-image-5b6e95d5e9f0c0.6042276715339739739582.png",
+      "PackagePath": "staticwebassets\\css\\kisspng-clip-art-access-control-user-computer-icons-image-5b6e95d5e9f0c0.6042276715339739739582.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\kisspng-computer-icons-login-management-user-5ae155f36cf686.7736884715247170434463.png",
+      "PackagePath": "staticwebassets\\css\\kisspng-computer-icons-login-management-user-5ae155f36cf686.7736884715247170434463.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\kisspng-computer-icons-user-scalable-vector-graphics-porta-man-lock-block-svg-png-icon-free-download-5-9-47-5c738fd23e2bb4.9275854115510773302547.png",
+      "PackagePath": "staticwebassets\\css\\kisspng-computer-icons-user-scalable-vector-graphics-porta-man-lock-block-svg-png-icon-free-download-5-9-47-5c738fd23e2bb4.9275854115510773302547.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\man_4140048.png",
+      "PackagePath": "staticwebassets\\css\\man_4140048.png"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-ivo-rainha-1290141.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-ivo-rainha-1290141.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-kaboompics-com-5834.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-kaboompics-com-5834.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-lisa-fotios-2090104.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-lisa-fotios-2090104.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-marta-dzedyshko-2067569.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-marta-dzedyshko-2067569.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-max-fischer-5872360.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-max-fischer-5872360.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-maël-balland-3457273.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-maël-balland-3457273.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-miguel-constantin-montes-2623829.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-miguel-constantin-montes-2623829.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-parth-shah-824197.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-parth-shah-824197.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-pixabay-256443.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-pixabay-256443.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-pixabay-256450.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-pixabay-256450.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-polina-zimmerman-3747163.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-polina-zimmerman-3747163.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-rdne-stock-project-7821926.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-rdne-stock-project-7821926.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-thought-catalog-2228580.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-thought-catalog-2228580.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-thought-catalog-904620.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-thought-catalog-904620.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels-ylanite-koppens-1809340.jpg",
+      "PackagePath": "staticwebassets\\css\\pexels-ylanite-koppens-1809340.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\pexels_videos_2268807 (1080p).mp4",
+      "PackagePath": "staticwebassets\\css\\pexels_videos_2268807 (1080p).mp4"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\profilepic.jpg",
+      "PackagePath": "staticwebassets\\css\\profilepic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ff025\\OneDrive\\Desktop\\Vrika\\Vrika\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Vrika.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Vrika.props",
+      "PackagePath": "build\\Vrika.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Vrika.props",
+      "PackagePath": "buildMultiTargeting\\Vrika.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Vrika.props",
+      "PackagePath": "buildTransitive\\Vrika.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

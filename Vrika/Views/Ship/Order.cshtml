@@ -1,0 +1,143 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="body">
+    <div class="REQ">
+
+        <h2>MY-ORDERS</h2>
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <th>PRODUCT-ID</th>
+                    <th>NAME</th>
+                    <th>ADDRESS</th>
+                    <th>EMAIL</th>
+                    <th>PHONE</th>
+                    <th>CITY</th>
+                    <th>Action</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Shipping in Model)
+                {
+                    <tr style=" font-weight: 500">
+
+                        <td>@Shipping.Productid</td>
+                        <td>@Shipping.fullname</td>
+                        <td>@Shipping.address</td>
+                        <td>@Shipping.email </td>
+                        <td>@Shipping.Phone </td>
+                        <td>@Shipping.city </td>
+
+                        <td>
+                           
+
+                            <a class="btn btn-danger" asp-controller="Ship"
+                               asp-action="Sdelete" asp-route-id="@Shipping.Id">
+                                CANCEL ORDER
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<style>
+  /* .REQ {
+        width: 95%;
+        margin: 80px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .body {
+        min-height: 90vh;
+    }
+
+    .table {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+
+    h2 {
+        margin-left: 20px;
+        align-items: center;
+        }*/
+
+    .body {
+        margin: 20px;
+    }
+
+    .REQ {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .table th, .table td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .table td {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table tbody tr:hover {
+            background-color: #f2f2f2;
+        }
+
+    .btn {
+        padding: 6px 12px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+</style>
+

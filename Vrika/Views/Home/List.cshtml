@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="body">
+ <div class="REQ">
+
+        
+<h2> Booklist List</h2>
+
+<table class="table">
+    
+    <thead>
+        <tr>
+            <th>B.No</th>
+            <th>BookName</th>
+            <th>BookPrice</th>
+            <th>Author</th>
+            <th>Genre</th>
+           
+            <th>Action</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Books in Model)
+        {
+            <tr>
+                <td>@Books.Id</td>
+                <td>@Books.BookName</td>
+                <td>@Books.BookPrice</td>
+                <td>@Books.Author</td>
+                <td>@Books.Genre</td>
+                
+                <td>
+                    <a class="btn btn-primary" asp-controller="Home"
+                       asp-action="Edit" asp-route-id="@Books.Id">
+                        Edit Book
+                    </a>
+
+                    <a class="btn btn-danger" asp-controller="Home"
+                       asp-action="Delete" asp-route-id="@Books.Id">
+                        Delete Book
+                    </a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+        </table>
+    </div>
+</div>
+
+
+ <style>
+    .REQ {
+        width: 90%;
+        margin: 80px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .body {
+        min-height: 90vh;
+    }
+                    .table{
+                        width:70%;
+                        margin:20px auto;
+
+                    }
+
+
+                    h2{
+                   margin-left:20px
+
+                    }
+
+
+
+
+
+
+
+
+
+  </style>

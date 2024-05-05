@@ -1,0 +1,92 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="body">
+<div class="REQ">
+
+    <h2> Book Requests</h2>
+<table class="table">
+        
+    <thead>
+        <tr>
+            <th>BookTitle</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Email</th>
+
+            <th>Action</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Request in Model)
+        {
+                    <tr style=" font-weight: 500">
+
+                <td >@Request.BookTitle</td>
+                <td>@Request.Author</td>
+                <td>@Request.Genre</td>
+                <td>@Request.YourEmail </td>
+
+                <td>
+                    <a class="btn btn-primary" asp-controller="Crud"
+                       asp-action="RNotify" asp-route-id="@Request.Id">
+                        NOTIFY
+                    </a>
+
+                    <a class="btn btn-danger" asp-controller="Crud"
+                       asp-action="Rdelete" asp-route-id="@Request.Id">
+                        Delete Request
+                    </a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+</div>
+</div>
+<style>
+    .REQ{
+
+        width:90%;
+        margin:80px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+
+
+
+
+    }
+    .body{
+        min-height: 90vh;
+
+
+
+    }
+    .table {
+        width: 70%;
+       margin: 50px auto;
+   
+    }
+
+
+    h2 {
+        margin-left: 20px;
+        align-items:center;
+    }
+    
+
+</style>

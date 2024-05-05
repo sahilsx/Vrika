@@ -1,0 +1,107 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<body>
+<div class="nav">
+    <div class="nav1">
+            <h3>WELCOME TO ADMIN PANEL!</h3>
+<ul class="ul">
+
+   <li><a class="dropdown-item" asp-controller="Home" asp-action="Create">Add New Book</a></li>
+    <li><a class="dropdown-item" asp-controller="Home" asp-action="List">Book Collections</a></li>
+    <li><a class="dropdown-item" asp-controller="Crud" asp-action="Rlist">Book Requests</a></li>
+    
+    <li><a class="dropdown-item" asp-controller="Ship" asp-action="Slist">Orders</a></li>
+</ul>
+            <section id="dashboard">
+                <h2>Dashboard</h2>
+                <p>This is the admin dashboard. Here you can view various statistics and reports.</p>
+            </section>
+        </div>
+</div>
+</body>
+
+
+
+
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .nav {
+        background-color: #fff;
+        color: #fff;
+        display:flex;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+    .nav1{
+
+        margin:50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    }
+        .ul {
+            list-style: none;
+            padding: 30px auto;
+            margin-top: 50px;
+            color:black;
+            text-align: center;
+            background-color:#666;
+        }
+
+             .ul li {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+                 .ul li a {
+                    display: block;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #fff;
+                    transition: background-color 0.3s;
+                }
+
+                     .ul li a:hover {
+                        background-color: #555;
+                    }
+
+
+h3{
+ color: black;
+ font-weight:700;
+margin:10px auto;
+font-family:sans-serif;
+
+
+}
+
+    section {
+        margin-top: 230px;
+        background-color: black;
+        padding: 20px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+
+</style>

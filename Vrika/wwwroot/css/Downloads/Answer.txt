@@ -1,0 +1,30 @@
+## Bing
+As I mentioned before, FileInfo is a class that provides functions to work with files. Here are some of the functions with code examples:
+- Create: Creates a file in the specified path.
+
+FileInfo fi = new FileInfo(@"C:\Test\TestFile.txt");
+fi.Create();
+
+- Delete: Deletes the file.
+
+FileInfo fi = new FileInfo(@"C:\Test\TestFile.txt");
+fi.Delete();
+
+- MoveTo: Moves the file to a new location.
+
+FileInfo fi = new FileInfo(@"C:\Test\TestFile.txt");
+fi.MoveTo(@"C:\NewTest\NewTestFile.txt");
+
+- CopyTo: Copies the file to a new location.
+
+FileInfo fi = new FileInfo(@"C:\Test\TestFile.txt");
+fi.CopyTo(@"C:\NewTest\NewTestFile.txt");
+
+- Open: Opens the file in a specified mode.
+
+FileInfo fi = new FileInfo(@"C:\Test\TestFile.txt");
+FileStream fs = fi.Open(FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None);
+// Do some operations on the file stream
+fs.Close();
+
+You can find more functions and code examples on these websites   . Do you have any specific questions about FileInfo?

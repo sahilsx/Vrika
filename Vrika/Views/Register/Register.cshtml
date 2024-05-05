@@ -1,0 +1,386 @@
+﻿@model Vrika.Models.RegisterUser
+@{
+
+}
+<style>
+   /* .register{
+    width:100%;
+    height:200vh;
+
+
+
+
+
+    }
+   
+   
+   .reg{
+        width: 30%;
+        margin-top: -30%;
+        margin-left: 60%;
+        border-radius: 13px;
+        border: 3px solid transparent;
+        box-shadow: inset 1px 0 2px , 1px 0 2px ;
+
+
+   }
+
+    .form-label {
+        font-size: 15px;
+        display:block;
+        font-family: sans-serif;
+        font-weight:600;
+        margin: 5px 20px;
+    }
+    .bckgrnd{
+        display:flex;
+        background-color:black;
+
+
+
+
+    }
+    .text{
+        margin: 1px 20px;
+
+
+    }
+
+    .form-label1 {
+        font-size: 15px;
+        display: block;
+        margin: 5px 20px;
+        font-family: sans-serif;
+        font-weight:600;
+       
+    }
+
+    .form-input {
+        margin: 2px 20px;
+        width: 80%;
+        
+        height: 35px;
+        border: 1px solid #e5d3d3;
+        font-size: 14px;
+        margin-bottom: 10px;
+        display:block;
+        margin-top: 10px 5px;
+        padding: 5px 20px;
+        font-family: sans-serif;
+        
+        background-color: #fff;
+    }
+
+    .form-input-email {
+        margin: 2px 20px;
+        width: 80%;
+        border: 1px solid #e5d3d3;
+       
+        height: 35px;
+        font-size: 14px;
+        padding: 5px 20px;
+        font-family: sans-serif;
+        background-color: #fff;
+    }
+
+
+
+    .regx {
+        background-color: blue;
+        color: rgb(218, 252, 252);
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 5px 20px;
+        margin-top: 10px;
+        position:relative;
+        left:35%;
+         font-family: 'Franklin Gothic';
+        font-style:italic;
+        margin-bottom: 20px;
+    }
+
+        .regx:hover {
+            background-color: purple;
+            color: pink;
+            z-index: 1;
+            transform: scale(1.01);
+            cursor:pointer;
+        }
+
+        .register li{
+         list-style-type:none;
+         text-decoration:none;
+         margin-left:10%;
+         margin-top: 10px;
+        font-family: 'Franklin Gothic';
+        font-style: italic;
+       
+        }
+
+    .register li a {
+        list-style-type: none;
+        text-decoration: none;
+        background-color: blue;
+        padding: 4px 10px;
+        font-size: 12px;
+        margin-top: 15px 5PX;
+        color: rgb(218, 252, 252);
+        border-radius: 10px;
+        font-family: 'Franklin Gothic';
+        font-style: italic;
+    }
+
+    .register li a:hover{
+            background-color: purple;
+            color: pink;
+            transform: scale(1.01);
+            cursor: pointer;
+
+
+    }
+    .ftn{
+     font-family: 'Franklin Gothic';
+     font-style: italic;
+    
+     font-size:13px;
+     margin-top:10px ;
+     margin-left: 10px;
+     color:black;
+     list-style-type: none;
+     text-decoration: none;
+     
+    }
+    .Rhead{
+     font-family:'Global Sans Serif';
+     margin-bottom:20px;
+     font-weight:500;
+     
+     margin-left:8px;
+
+
+
+    }
+
+    #ct {
+        color: black;
+        margin-left: 30%;
+        margin-bottom: 10px;
+    }
+
+    .fb {
+        text-decoration: none;
+        background-color: navy;
+        padding: 5px 15px;
+        font-size: 17px;
+        color: rgb(218, 252, 252);
+        border-radius: 10px;
+        font-family: 'Franklin Gothic';
+        margin-left: 7%;
+        margin-top: 12px;
+    }
+
+    .gg {
+        margin-left: 7%;
+    }
+
+    .fp {
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        margin-left: 4%;
+        font-weight: 500;
+    }
+
+    .imgo {
+        width: 31%;
+        height: 300px;
+        margin-left: 22%;
+        opacity: 0.6;
+        margin-top: 110px;
+    }
+
+    /* General styles */
+    .regis {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #efdbdb;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       margin-left:5%;
+        
+    }
+
+    .imgo {
+        display: block;
+        margin: 0 auto 10px;
+        width: 50px;
+    }
+
+    .Rhead {
+        text-align: center;
+        margin-bottom: 5px;
+        color: #212529;
+    }
+
+    .reg {
+        margin-bottom: 10px;
+    }
+
+    /* Form styles */
+    .form-label, .form-label1 {
+        display: block;
+        margin-bottom: 5px;
+        color: #212529;
+        font-weight:600;
+        font-size:14px;
+    }
+
+    .form-input, .form-input-email, .form-input.form-control {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .form-input-email {
+        margin-bottom: 5px;
+    }
+
+    .text {
+        font-size: 12px;
+        color: #212529;
+    }
+
+    .regx {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+      
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .regx:hover {
+            background-color: #45a049;
+        }
+
+    /* Continue with styles */
+    #ct {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #212529;
+        margin-left: 36%;
+        margin-left: 38%;
+    }
+
+    .gg {
+        margin-bottom: 10px;
+        margin-left: 22%;
+    }
+
+        .gg a {
+            display: inline-block;
+            color: #212529;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+            .gg a:hover {
+                color: #333;
+            }
+
+    /* Footer styles */
+    .ftn {
+        display: block;
+        margin-top: 10px;
+        font-size: 10px;
+        color: #ffeaea;
+        text-decoration: none;
+    }
+    .register li{
+        color: #212529;
+
+    }
+
+    .register li a {
+        color:black;
+    }
+
+    .im {
+        max-width: 600px;
+        margin: 0 25%;
+        margin-top: 150px;
+        height: 200px;
+    }
+
+    .div {
+        display: flex;
+    }
+</style>
+<div class="div">
+
+
+<div class="regis">
+    <img class="imgo" src="~/css/kisspng-computer-icons-login-management-user-5ae155f36cf686.7736884715247170434463.png" alt="Avatar">
+<form method="post" class="register">
+    <div class="reg">
+            <h1 class="Rhead">
+				
+        REGISTER PORTAL!
+    </h1>
+
+
+
+
+
+    <label class="form-label">USERNAME </label>
+        <input class="form-input form-control" type="text" id="UserName" placeholder="ENTER YOUR USERNAME HERE" asp-for="UserName">
+
+
+
+
+
+    <label class="form-label">EMAIL </label>
+        <input class="form-input-email " id="Email" type="Email" placeholder="ENTER YOUR EMAIL HERE " asp-for="Email"   >
+    <div class="text"> we will never share your personal data with others</div>
+
+
+
+
+
+    <label class="form-label1">PASSWORD</label>
+        <input class="form-input form-control" id="Password" type="Password" placeholder="ENTER YOUR PASSWORD HERE" asp-for="Password">
+
+
+
+
+
+
+    <button class="regx" type="submit"> Register</button>
+        <h6 id="ct">
+            Continue With
+        </h6>
+        <div class="gg">
+            <a class="fb" asp-area="" asp-controller="Register" asp-action="Register"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+            <a class="fb" asp-area="" asp-controller="Register" asp-action="Register"><i class="fa fa-google" aria-hidden="true"></i> Google</a>
+
+        </div>
+
+
+
+        <li> if already have an account then. <a asp-area="" asp-controller="Register" asp-action="Login">Login</a></li>
+
+
+
+
+    <a class="ftn" asp-area="" asp-page="/login">Privacy  · Terms  · Advertising  · Ad choices   · Cookies  ·   · Meta © 2024</a>
+    </div>
+</form>
+</div>
+    <img class="im" src="~/css/kisspng-clip-art-access-control-user-computer-icons-image-5b6e95d5e9f0c0.6042276715339739739582.png" alt="Avatar">
+</div>

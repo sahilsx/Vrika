@@ -1,0 +1,103 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<body>
+
+    <div class="container">
+        <h2>Gift Card</h2>
+        <form id="giftCardForm">
+            <div class="form-group">
+                <label for="recipientName">Recipient's Name:</label>
+                <input type="text" id="recipientName" name="recipientName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Recipient's Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Gift Card Amount:</label>
+                <select id="amount" name="amount" required>
+                    <option value="10">$10</option>
+                    <option value="20">$20</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                </select>
+            </div>
+            <button type="submit">Purchase Gift Card</button>
+        </form>
+    </div>
+
+</body>
+
+
+
+            <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+
+             
+
+
+
+
+
+
+
+
+
+
+            </style>
