@@ -135,3 +135,4 @@ C:\Users\ff025\OneDrive\Desktop\Vrika\Vrika\bin\Debug\net8.0\runtimes\win\lib\ne
 C:\Users\ff025\OneDrive\Desktop\Vrika\Vrika\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\ff025\OneDrive\Desktop\Vrika\Vrika\obj\Debug\net8.0\Vrika.csproj.AssemblyReference.cache
 C:\Users\ff025\OneDrive\Desktop\Vrika\Vrika\obj\Debug\net8.0\Vrika.csproj.CopyComplete
+C:\Users\ff025\OneDrive\Desktop\Vrika\Vrika\obj\Debug\net8.0\Vrika.sourcelink.json
