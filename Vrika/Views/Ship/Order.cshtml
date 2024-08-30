@@ -14,79 +14,32 @@
 }
 <div class="body">
     <div class="REQ">
-
-        <h2>MY-ORDERS</h2>
-        <table class="table">
-
-            <thead>
-                <tr>
-                    <th>PRODUCT-ID</th>
-                    <th>NAME</th>
-                    <th>ADDRESS</th>
-                    <th>EMAIL</th>
-                    <th>PHONE</th>
-                    <th>CITY</th>
-                    <th>Action</th>
-
-
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var Shipping in Model)
-                {
-                    <tr style=" font-weight: 500">
-
-                        <td>@Shipping.Productid</td>
-                        <td>@Shipping.fullname</td>
-                        <td>@Shipping.address</td>
-                        <td>@Shipping.email </td>
-                        <td>@Shipping.Phone </td>
-                        <td>@Shipping.city </td>
-
-                        <td>
-                           
-
-                            <a class="btn btn-danger" asp-controller="Ship"
-                               asp-action="Sdelete" asp-route-id="@Shipping.Id">
-                                CANCEL ORDER
-                            </a>
-
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-
+        <h2>MY ORDERS</h2>
+        <div class="card-container">
+            @foreach (var Shipping in Model)
+            {
+                <div class="order-card">
+                    <div class="order-card-body">
+                        <h5 class="order-card-title">Order ID: @Shipping.Productid</h5>
+                        <p><strong>Name:</strong> @Shipping.fullname</p>
+                        <p><strong>Address:</strong> @Shipping.address</p>
+                        <p><strong>Email:</strong> @Shipping.email</p>
+                        <p><strong>Phone:</strong> @Shipping.Phone</p>
+                        <p><strong>City:</strong> @Shipping.city</p>
+                        <a class="btn btn-danger" asp-controller="Ship" asp-action="Sdelete" asp-route-id="@Shipping.Id">
+                            CANCEL ORDER
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
     </div>
 </div>
+
 <style>
-  /* .REQ {
-        width: 95%;
-        margin: 80px auto;
-        background: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        text-align: center;
-    }
-
     .body {
-        min-height: 90vh;
-    }
-
-    .table {
-        width: 80%;
-        margin: 50px auto;
-    }
-
-
-    h2 {
-        margin-left: 20px;
-        align-items: center;
-        }*/
-
-    .body {
-        margin: 20px;
+        margin: 20px auto;
+        padding: 10px;
     }
 
     .REQ {
@@ -96,38 +49,57 @@
         background-color: #f9f9f9;
     }
 
-    .table {
-        width: 100%;
-        border-collapse: collapse;
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
     }
 
-        .table th, .table td {
-            padding: 8px;
-            text-align: left;
-        }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
 
-        .table th {
-            background-color: #007bff;
-            color: #fff;
-        }
+    .order-card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 350px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
 
-        .table td {
-            border-bottom: 1px solid #ddd;
-        }
+    .order-card:hover {
+        transform: translateY(-5px);
+    }
 
-        .table tbody tr:hover {
-            background-color: #f2f2f2;
-        }
+    .order-card-body {
+        padding: 15px;
+    }
+
+    .order-card-title {
+        font-size: 1.2rem;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .order-card p {
+        margin: 5px 0;
+        font-size: 0.9rem;
+        color: #333;
+    }
 
     .btn {
-        padding: 6px 12px;
+        display: block;
+        width: 100%;
+        padding: 8px;
+        text-align: center;
         border-radius: 3px;
         cursor: pointer;
-    }
-
-    .btn-primary {
-        background-color: #007bff;
-        color: #fff;
+        margin-top: 10px;
     }
 
     .btn-danger {
@@ -139,5 +111,10 @@
         opacity: 0.8;
     }
 
-</style>
+    .ftx {
+        display: none;
+    }
 
+    /* Responsive Design */
+    
+</style>

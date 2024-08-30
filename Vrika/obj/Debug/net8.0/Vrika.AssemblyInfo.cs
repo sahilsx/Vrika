@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vrika")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2a7639066573350232775f1c9950e337bc793d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32c679134805c489b875a9fb4866994408623efb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vrika")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vrika")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

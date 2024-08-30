@@ -84,10 +84,29 @@
                             {
                     <ul class="looogin">
                         <li class="">
-                            <a class="" asp-area="" asp-controller="Register" asp-action="Login"><i class="fa fa-user-plus" aria-hidden="true"></i> Login</a>
+                            <a class="oo" asp-area="" asp-controller="Register" asp-action="Login"><i class="fa fa-user-plus" aria-hidden="true"></i> Login</a>
                         </li>
                     </ul>
                             }
+                            @if (signInManager.IsSignedIn(User))
+                            {
+                                if (User.IsInRole("Admin"))
+                                {
+                            <a  class="btn btn-primary adminn " asp-area="" asp-controller="Home" asp-action="Admin">ADMIN</a>
+                                }
+
+
+                            }
+                            else { }
+
+
+
+
+
+
+
+
+
             </div>
               @if (signInManager.IsSignedIn(User)){
                   if (User.IsInRole("Admin"))
@@ -409,7 +428,7 @@
         text-decoration: none;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 30px;
-        margin-top: 0px;
+        margin-top: -4px;
         color: purple;
     }
 
@@ -621,5 +640,26 @@
            position:absolute;
            top:95%;
            left:2%;
+        }
+        .wowzah {
+            position:absolute;
+            left:2px;
+            top:80px;
+            bottom:500px;
+
+
+        }
+        .wowzah ul {
+            display:flex
+        }
+
+        .wowzah ul li {
+            list-style-type:none;
+               
+        }
+        .adminn{
+        position: absolute;
+        right: 10%;
+        top:-56px;
         }
 </style>
