@@ -21,19 +21,22 @@ body {
   margin-bottom: 60px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1068px) {
    
-    .login {
+    .looogin {
         display: none;
     }
     .buaj{
+        display: none;
+    }
+    .ftx {
         display: none;
     }
 }
 
 
 @media (max-width: 1260px) {
-    .form{
+    .forms{
         display: none;
     }
     .loogin {
@@ -48,5 +51,19 @@ body {
     .nsp {
         display: none;
     }
+    .navbar1{
+     display:none
+
+    }
+    .middle {
+        display: none
+    }
+    .ftno {
+        display: none
+    }
+    .imoo{
+        display:none;
+    }
+    
 
 }

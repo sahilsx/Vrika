@@ -30,7 +30,7 @@
                     <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
                 </button>
                 <ul class="navbar-nav flex-grow-1">
-                        <form class="form" action="" method="post">
+                        <form class="forms" action="" method="post">
                             <input class="search" type="search" placeholder="search books | Authors" required>
                             <br>
                             <button class="btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i> </button>
@@ -82,8 +82,8 @@
                             }
                             else
                             {
-                    <ul class="">
-                        <li class="login">
+                    <ul class="looogin">
+                        <li class="">
                             <a class="" asp-area="" asp-controller="Register" asp-action="Login"><i class="fa fa-user-plus" aria-hidden="true"></i> Login</a>
                         </li>
                     </ul>
@@ -129,7 +129,7 @@
 
     <footer class=" ftr text-muted ">
 
-        <div>
+        <div class="ftno">
             <a class="vk" asp-area="" asp-controller="Home" asp-action="Index"> <i class="fa fa-book" aria-hidden="true"></i>VRiKa</a>
 
 
@@ -321,7 +321,38 @@
 
         </div>
 
+
+
+        <div class="ftx">
+                <p>&copy; 2024 - Vrika all-copyrights-reserved.</p>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
@@ -486,7 +517,7 @@
 
     .ftr {
         background-color: #aeadff;
-        height: 70vh;
+        
         margin-top: -15px;
         margin-bottom: -60px;
     }
@@ -577,5 +608,18 @@
             text-decoration: none;
             color: #6c757d;
         }
-
+        .ftx{
+        position: relative;
+        bottom:0%;
+        }
+        .ftx p{
+     width:60%;
+     margin:0px auto;
+    
+        }
+        .looogin{
+           position:absolute;
+           top:95%;
+           left:2%;
+        }
 </style>
