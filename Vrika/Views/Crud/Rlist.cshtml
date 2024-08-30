@@ -9,84 +9,117 @@
 @{
 }
 <div class="body">
-<div class="REQ">
-
-    <h2> Book Requests</h2>
-<table class="table">
-        
-    <thead>
-        <tr>
-            <th>BookTitle</th>
-            <th>Author</th>
-            <th>Genre</th>
-            <th>Email</th>
-
-            <th>Action</th>
-
-
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var Request in Model)
-        {
-                    <tr style=" font-weight: 500">
-
-                <td >@Request.BookTitle</td>
-                <td>@Request.Author</td>
-                <td>@Request.Genre</td>
-                <td>@Request.YourEmail </td>
-
-                <td>
-                    <a class="btn btn-primary" asp-controller="Crud"
-                       asp-action="RNotify" asp-route-id="@Request.Id">
-                        NOTIFY
-                    </a>
-
-                    <a class="btn btn-danger" asp-controller="Crud"
-                       asp-action="Rdelete" asp-route-id="@Request.Id">
-                        Delete Request
-                    </a>
-
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
+    <div class="REQ">
+        <h2>Book Requests</h2>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead class="table-header">
+                    <tr>
+                        <th>Book Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var Request in Model)
+                    {
+                        <tr>
+                            <td>@Request.BookTitle</td>
+                            <td>@Request.Author</td>
+                            <td>@Request.Genre</td>
+                            <td>@Request.YourEmail</td>
+                            <td>
+                                <a class="btn btn-primary btn-sm" asp-controller="Crud" asp-action="RNotify" asp-route-id="@Request.Id">NOTIFY</a>
+                                <a class="btn btn-danger btn-sm" asp-controller="Crud" asp-action="Rdelete" asp-route-id="@Request.Id">Delete Request</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
-</div>
+
 <style>
-    .REQ{
+    .body {
+        margin: 20px auto;
+        padding: 10px;
+    }
 
-        width:90%;
-        margin:80px auto;
+    .REQ {
+        width: 95%;
+        max-width: 1200px;
+        margin: 20px auto;
         background: #fff;
-        padding: 20px;
         border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
         text-align: center;
-
-
-
-
     }
-    .body{
-        min-height: 90vh;
-
-
-
-    }
-    .table {
-        width: 70%;
-       margin: 50px auto;
-   
-    }
-
 
     h2 {
-        margin-left: 20px;
-        align-items:center;
+        margin-bottom: 20px;
+        text-align: center;
     }
-    
 
+    .table-responsive {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .table {
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    .table-header {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .table th, .table td {
+        padding: 12px;
+        text-align: left;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f2f2f2;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 12px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 12px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+    /* Responsive Design */
+   
 </style>

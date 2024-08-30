@@ -90,3 +90,18 @@ body {
     }
 
 }
+@media (max-width: 768px) {
+    .REQ {
+        padding: 10px;
+    }
+
+    .table th, .table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .btn-primary, .btn-danger {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+}
