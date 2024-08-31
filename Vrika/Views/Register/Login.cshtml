@@ -144,19 +144,19 @@
 
 
 
-
+                @* Display error message section *@
+                @Html.ValidationSummary(false, "", new { @class = "alert-danger" })
 
         <label class="form-label">USERNAME </label>
-        <input class="form-input" type="text" id="Username" placeholder="ENTER YOUR USERNAME HERE" asp-for="UserName" >
-
+        <input class="form-input" type="text" id="Username" placeholder="ENTER YOUR USERNAME HERE" asp-for="UserName" required >
+                <span asp-validation-for="UserName" style="color:red; font-size:0.6em;"></span>
 
 
 
 
         <label class="form-label">PASSWORD</label>
-        <input class="form-input " id="Password" type="Password" placeholder="ENTER YOUR PASSWORD HERE" asp-for="Password"        >
-
-
+        <input class="form-input " id="Password" type="Password" placeholder="ENTER YOUR PASSWORD HERE" asp-for="Password" required >
+         <span style="color:red; font-size:0.6em;" asp-validation-for="Password"></span>
             <a class="fp" asp-area="" asp-controller="Home" asp-action="Index">Forgot Password?</a>
 
             <br />

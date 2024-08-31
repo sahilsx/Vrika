@@ -42,7 +42,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img class="pr" src="~/css/man_4140048.png" alt="Avatar">    @User?.Identity?.Name
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu ddd" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Profile"><i class="fa fa-address-book" aria-hidden="true"></i>  Account Details</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-plus-square" aria-hidden="true"></i>  My Booklist</a></li>
 
@@ -67,16 +67,19 @@
                             <a class="" asp-area="" asp-controller="Register" asp-action="Profile"><i class="fa fa-address-book" aria-hidden="true"></i> Account Details</a>
                         </li>
                         <li class="">
-                            <a class="" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-plus-square" aria-hidden="true"></i> My Booklist</a>
-                        </li>
-                        <li class="">
                             <a class="" asp-area="" asp-controller="Ship" asp-action="Order"><i class="fa fa-truck" aria-hidden="true"></i> My Orders</a>
                         </li>
                         <li class="">
-                            <a class="" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-shopping-bag" aria-hidden="true"></i> My Wishlist</a>
-                        </li>
-                        <li class="">
                             <a class="" asp-area="" asp-controller="Register" asp-action="Logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="#" onclick="toggleDropdown(event)"><i class="fa fa-ellipsis-h" aria-hidden="true"></i> More</a>
+                            <ul class="dropdown-menu sss">
+                                <li> <a  asp-area="" asp-controller="Crud" asp-action="Request">ASK A BOOK</a></li>
+                                <li><a  asp-area="" asp-controller="Home" asp-action="Authors">AUTHORS </a></li>
+                                <li> <a  asp-area="" asp-controller="Home" asp-action="About"> ABOUT US </a></li>
+                                <li> <a  asp-area="" asp-controller="Home" asp-action="Help">   HELP  </a></li>
+                            </ul>
                         </li>
                     </ul>
                             }
@@ -371,7 +374,22 @@
 
 
     </footer>
+        <script>
+            function toggleDropdown(event) {
+                event.preventDefault();
+                var dropdownMenu = event.currentTarget.nextElementSibling;
+                dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+            }
 
+            // Close the dropdown if clicked outside
+            document.addEventListener('click', function (event) {
+                var dropdownMenus = document.querySelectorAll('.dropdown-menu');
+                dropdownMenus.forEach(function (menu) {
+                    if (!menu.contains(event.target) && !menu.previousElementSibling.contains(event.target)) {
+                        menu.style.display = 'none';
+                    }
+                });
+            });</script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
@@ -523,11 +541,11 @@
         font-weight: 400;
     }
 
-    .dropdown-menu {
+    .ddd {
         background-color: black;
     }
 
-        .dropdown-menu li a {
+        .ddd li a {
             color: coral;
         }
 
@@ -655,8 +673,47 @@
 
         .wowzah ul li {
             list-style-type:none;
+            margin-left:10px ;
+            text-decoration:none;
                
         }
+
+            .wowzah ul li a {
+                font-weight:700;
+               
+            }
+
+    .dropdown {
+        cursor: pointer;
+    }
+
+    .sss {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        z-index: 1000;
+    }
+
+        .sss li {
+            width: 100%;
+        }
+
+        .sss a {
+            display: inline;
+            padding: 10px 15px;
+            color: #333;
+            text-decoration: none;
+        }
+
+            .sss a:hover {
+                background-color: #f0f0f0;
+            }
         .adminn{
         position: absolute;
         right: 10%;

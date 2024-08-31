@@ -57,16 +57,28 @@ namespace Vrika.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginUser model)
         {
-            var login = await _signInManager.PasswordSignInAsync(model.UserName,
+            if (ModelState.IsValid)
+            {
+                var login = await _signInManager.PasswordSignInAsync(model.UserName,
                 model.Password, false, false);
 
 
-            if (login != null && login.Succeeded)
+                if (login != null && login.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Invalid username or password. Please try again.");
+                    return View(model);
+                }
+            }
+            else
             {
-                return RedirectToAction("Index","Home");
+                return View();
 
             }
-            return View();
         }
         [HttpGet]
         public async Task<IActionResult> Logout()
