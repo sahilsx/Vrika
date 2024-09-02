@@ -27,22 +27,40 @@ namespace Vrika.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterUser model)
         {
-            var user = new IdentityUser { UserName = model.UserName, Email = model.Email };
 
-
-            var result = await _userManager.CreateAsync(user, model.Password);
-
-            if (result.Succeeded)
+            if (ModelState.IsValid)
             {
-                var role = await _userManager.AddToRoleAsync(user, "User");
+                var user = new IdentityUser { UserName = model.UserName, Email = model.Email };
 
-                if (role.Succeeded)
+
+                var result = await _userManager.CreateAsync(user, model.Password);
+
+                if (result.Succeeded)
                 {
-                    return RedirectToAction("Login");
+                    var role = await _userManager.AddToRoleAsync(user, "User");
 
+                    if (role.Succeeded)
+                    {
+                        return RedirectToAction("Login");
+
+                    }
+                    else
+                    {
+                        ModelState.AddModelError(string.Empty, "You are entering wrong credentials. Please try with valid ones.");
+                        return View(model);
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "You are entering wrong credentials. Please try with valid ones.");
+                    return View(model);
                 }
             }
-            return View();
+            else
+            {
+                return View(model);
+            }
+           
         }
 
 

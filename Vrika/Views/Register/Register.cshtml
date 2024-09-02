@@ -336,7 +336,7 @@
 
 
 
-
+                @Html.ValidationSummary(false, "", new { @class = "alert-danger" })
 
     <label class="form-label">USERNAME </label>
         <input class="form-input form-control" type="text" id="UserName" placeholder="ENTER YOUR USERNAME HERE" asp-for="UserName" required>
@@ -355,10 +355,10 @@
 
     <label class="form-label1">PASSWORD</label>
         <input class="form-input form-control" id="Password" type="Password" placeholder="ENTER YOUR PASSWORD HERE" asp-for="Password" required>
-
-
-
-
+                <span style="color:black; font-size:0.6em; display:block ">Must be 8 characters long</span>
+                <span style="color:black; font-size:0.6em; display:block">Must contain at least one capital letter  </span>
+                <span style="color:black; font-size:0.6em; display:block">Must include a numeric digit  </span>
+                <span style="color:black; font-size:0.6em; display:block">Must have at least one special character  </span>
 
 
     <button class="regx" type="submit"> Register</button>
